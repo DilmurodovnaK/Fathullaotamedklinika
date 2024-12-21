@@ -1,0 +1,310 @@
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+        .container {
+            max-width: 1540px;
+        }
+        
+        @media only screen and (max-width: 1368px) {
+            .yonalsh {
+                grid-column: 2;
+            }
+        }
+        /* Add this to your global CSS file or the component's scoped styles */
+        
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #00578A;
+            /* Custom color */
+            font-size: 24px;
+            /* Increase arrow size */
+        }
+        
+        .swiper-pagination-bullet {
+            background: #00578A;
+            /* Custom pagination bullet color */
+        }
+        
+        .swiper-pagination-bullet-active {
+            background: #004a6f;
+            /* Change color when active */
+        }
+        
+        @media only screen and (max-width: 1000px) {
+            .btn {
+                max-width: 200px;
+            }
+        }
+        
+        @media only screen and (max-width: 826px) {
+            .btn {
+                max-width: 300px;
+            }
+        }
+        
+        @media only screen and (max-width: 1024px) {
+            .swip {
+                flex-shrink: 1 !important;
+            }
+        }
+        
+        @media only screen and (max-width: 850px) {
+            .card {
+                max-width: 400px;
+            }
+            .cardimage {
+                width: 400px;
+            }
+        }
+        
+        @media only screen and (max-width: 750px) {
+            .otzivip {
+                font-size: 12px;
+                line-height: 15px;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            .card {
+                max-width: 700px;
+            }
+            .cardimage {
+                width: 700px;
+            }
+        }
+        
+        .navbar {
+            background-color: #F0F6F9;
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.2rem;
+            position: sticky;
+            top: 0;
+            z-index: 20;
+            padding: 0 80px;
+        }
+        
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 80px;
+            max-width: 1500px;
+            position: relative;
+        }
+        
+        .nav-logo {
+            color: #20C997;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 40px;
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            font-weight: 600;
+        }
+        
+        .nav-logo .icon {
+            display: inline-block;
+            width: 3rem;
+            height: 3rem;
+            margin-left: 16px;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            text-align: center;
+        }
+        
+        .nav-links {
+            color: #141414;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            height: 100%;
+            border-bottom: 3px solid transparent;
+        }
+        /* .fa-code {
+  margin-left: 1rem;
+} */
+        
+        .nav-item {
+            line-height: 40px;
+            margin-right: 1rem;
+            font-weight: 400;
+        }
+        
+        .nav-item:after {
+            content: "";
+            display: block;
+            height: 3px;
+            width: 0;
+            background: transparent;
+            transition: width 0.7s ease, background-color 0.5s ease;
+        }
+        
+        .nav-item:hover:after {
+            width: 100%;
+            background: #20C997;
+        }
+        
+        .nav-item .active {
+            color: #20C997;
+            border: 1px solid#20C997;
+        }
+        
+        .nav-icon {
+            display: none;
+            color: #f5b921;
+        }
+        
+        .nav-icon .icon {
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+        }
+        
+        .nav-links {
+            font-weight: 500;
+            font-size: 17px;
+        }
+        
+        @media screen and (max-width: 960px) {
+            .nav-menu {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                border-top: 1pxsolid #fff;
+                position: absolute;
+                top: 80px;
+                left: -110%;
+                opacity: 1;
+                transition: all 0.5s ease;
+            }
+            .nav-menu.active {
+                background: #F0F6F9;
+                left: 0px;
+                opacity: 1;
+                transition: all 0.5s ease;
+                z-index: 1;
+            }
+            .nav-item .active {
+                color: #20C997;
+                border: none;
+            }
+            .nav-links {
+                padding: 1.5rem;
+                width: 100%;
+                display: table;
+            }
+            .dropdown {
+                width: 100%;
+                align-items: center;
+            }
+            .nav-logo .icon {
+                width: 2rem;
+                height: 2rem;
+            }
+            .nav-icon {
+                display: block;
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translate(-100%, -50%);
+                width: 2rem;
+                height: 2rem;
+                cursor: pointer;
+                color: #20C997;
+            }
+            .btn4{margin-right: 75px;}
+        }
+        
+        .btn3 {
+            background-color: #ffffff;
+            background-image: linear-gradient(0deg, #ffffff 0%, #08AEEA 1%, #2AF598 69%);
+        }
+        
+        .priyom {
+            background-color: #B721FF;
+            background-image: linear-gradient(19deg, #B721FF 38%, #6A0572 100%);
+        }
+
+
+       .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 80%;
+  width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  max-height: 80%;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.modal-description {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.close-button {
+  display: block;
+  margin-left: auto;
+  margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+  .modal-content {
+    max-width: 90%;
+    width: 90%;
+    padding: 15px;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .modal-description {
+    font-size: 20px;
+   
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-content {
+    max-width: 95%;
+    width: 95%;
+    padding: 10px;
+  }
+
+  .modal-title {
+    font-size: 18px;
+  }
+
+  .modal-description {
+    font-size: 12px;
+  }
+}
