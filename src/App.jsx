@@ -11,7 +11,7 @@ import Xizmatkorsatish from "./components/Xizmatkorsatish";
 export default function App() {
   
   return (
- <main className='flex flex-col items-center container mx-auto  '>
+ <main className='flex flex-col items-center container mx-auto '>
       <Navbar/>
       <Header/>
       <Xizmatkorsatish/>
