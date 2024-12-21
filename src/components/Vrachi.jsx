@@ -78,7 +78,7 @@ const { t } = useTranslation();
           {doctors.map((doctor) => (
             <div
               key={doctor.id}
-              className="max-w-[300px] w-full card rounded-lg dark:bg-gray-800 dark:border-gray-700"
+              className="max-w-[300px] w-full card rounded-lg "
             >
               <img
                 src={doctor.image}

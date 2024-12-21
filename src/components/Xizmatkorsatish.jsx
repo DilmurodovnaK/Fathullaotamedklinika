@@ -218,7 +218,7 @@ const services = [
           >
             {services.map((usluga, index) => (
               <SwiperSlide className='swip ' key={index}>
-                <div className="max-w-[300px] sm:w-[450px] bg-[#F5F5F5] border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:shadow-lg transition-shadow">
+                <div className="max-w-[300px] sm:w-[450px] bg-[#F5F5F5] border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <img
                     src={usluga.src}
                     alt={usluga.description}
@@ -227,7 +227,7 @@ const services = [
                     className="rounded-t-lg object-cover h-[250px] "
                   />
                   <div className="p-5">
-                    <p className="mb-3 font-medium text-[17px] text-black max-w-[240px] dark:text-gray-400">
+                    <p className="mb-3 font-medium text-[17px] text-black max-w-[240px] ">
                       {usluga.description}
                     </p>
                    <motion.button whileHover={{ scale: 1.1 }}
