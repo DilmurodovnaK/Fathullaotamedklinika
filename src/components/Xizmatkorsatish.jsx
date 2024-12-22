@@ -190,7 +190,7 @@ const services = [
 
         <div className="relative w-full items-center justify-between">
           <Swiper
-            className='swip'
+            className='swip overflow-hidden justify-center '
             spaceBetween={30}
             slidesPerView={4}
             autoplay={{ delay: 3000 }}
@@ -221,7 +221,7 @@ const services = [
             }}
           >
             {services.map((usluga, index) => (
-              <SwiperSlide className='swip ' key={index}>
+              <SwiperSlide className='swip  ' key={index}>
                 <div className="max-w-[300px] sm:w-[450px] bg-[#F5F5F5] border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <img
                     src={usluga.src}

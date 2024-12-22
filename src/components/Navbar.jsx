@@ -58,7 +58,7 @@ const Navbar = () => {
       <div ref={titlRef} className="nav-container flex items-center justify-between">
         {/* Logo */}
         <a className="nav-logo">
-          <img src={logo} alt="Logo" width={150} height={100} />
+          <img src={logo} alt="Logo" width={150} height={100} onClick={() => scrollToSection("navbar")} />
         </a>
 
         {/* Menu */}

@@ -72,7 +72,7 @@ const Priyom = () => {
     tel: "",
    
   });
-  const [isChecked, setIsChecked] = useState(false);
+  const [isChecked,  setIsChecked] = useState(false);
 
   // Handle changes in the Select component
   const handleChange = (event) => {

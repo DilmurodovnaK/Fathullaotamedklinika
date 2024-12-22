@@ -308,3 +308,7 @@
     font-size: 12px;
   }
 }
+
+.Swiper {
+  overflow: hidden;
+}
