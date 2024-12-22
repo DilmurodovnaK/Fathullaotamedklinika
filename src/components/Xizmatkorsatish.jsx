@@ -197,10 +197,14 @@ const services = [
             pagination={{ clickable: true }}
             modules={[Navigation, Pagination, Autoplay]}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
+            slidesPerGroup={1} // Har bir o‘tishda bir slayder ko‘rinadi
+
             breakpoints={{
               200: {
                 slidesPerView: 1,
                 spaceBetween: 10,
+              
+
               },
               660: {
                 slidesPerView: 2,

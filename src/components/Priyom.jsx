@@ -67,7 +67,7 @@ const Priyom = () => {
   const [personName, setPersonName] = useState([]);
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
+    secondname: "",
     personName: "",
     tel: "",
    
@@ -115,7 +115,7 @@ const Priyom = () => {
   const CHAT_ID = "1334411608"; // Your chat ID
 
   // Prepare the message with proper formatting
-  const message = `Имя: ${formData.name}\nТелефон: ${formData.tel}\nEmail: ${formData.email}\nTags: ${personName.length ? personName.join(", ") : "No tags selected"}`;
+  const message = `Имя: ${formData.name}\nТелефон: ${formData.tel}\nФамилия: ${formData.secondname}\nВыбрано: ${personName.length ? personName.join(", ") : "No tags selected"}`;
 
   const url = `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`;
 
@@ -140,7 +140,7 @@ const Priyom = () => {
 
     if (result.ok) {
       alert("Сообщение успешно отправлено!");
-      setFormData({ name: "", email: "", personName: "", tel: "" }); // Clear the form
+      setFormData({ name: "", secondname: "", personName: "", tel: "" }); // Clear the form
       setPersonName([]); // Clear the selected tags
     } else {
       alert("Ошибка при отправке сообщения! Ошибка API: " + result.description);
@@ -180,12 +180,12 @@ const Priyom = () => {
             <div>
            
                 <input
-              type="email"
-              id="email"
+              type="text"
+              id="secondname"
               className="w-full bg-[#F5F5F5] placeholder:text-black text-black text-sm border border-slate-200 rounded-md px-6 py-5 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
-              placeholder="Email"
-              name="email"
-              value={formData.email}
+              placeholder={t("familiya")}
+              name="secondname"
+              value={formData.secondname}
               onChange={handleClick}
               required
              
