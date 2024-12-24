@@ -17,18 +17,19 @@ const { t } = useTranslation();
       description: t("info1"),
         
     },
-    {
+      {
       id: 2,
-      name: t("dok2"),
-      image: vrach2,
-      description:t("info2")
-    },
-    {
-      id: 3,
       name: t("dok3"),
       image: vrach3,
       description:t("info1"),
     },
+    {
+      id: 3,
+      name: t("dok2"),
+      image: vrach2,
+      description:t("info2")
+    },
+  
     {
       id: 4,
       name: t("dok4"),

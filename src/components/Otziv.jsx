@@ -26,7 +26,7 @@ const Otziv = () => {
       reset: false,
     });
   })
-  return (
+  return (<>
     <div id='otziv' className="w-full mt-20 nb:mt-16">
       <div ref={titleRef} className="px-20 xl:px-12 lg:px-8 md:px-5 flex flex-col items-center gap-8">
         <div className=" w-full text-start">
@@ -42,9 +42,9 @@ const Otziv = () => {
     </div>
   
    <img src={stars} alt="" />
-   <p className='otzivip font-semibold text-lg lg:text-base nb:text-sm '>{t("otziv1")}</p>
+   <p className='otzivi font-semibold text-lg lg:text-base nb:text-sm '>{t("otziv1")}</p>
 
-<span className='font-semibold text-xl lg:text-base'> {t("vrachs")} <span className='text-[#20C997] font-semibold text-xl lg:text-base'>{t("dok1")}</span></span>
+
 </div>
 
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
@@ -54,9 +54,9 @@ const Otziv = () => {
     </div>
   
    <img src={stars} alt="" />
-   <p className='otzivip font-semibold text-lg lg:text-base nb:text-sm'>{t("otziv2")}</p>
+   <p className='otzivi font-semibold text-lg lg:text-base nb:text-sm'>{t("otziv2")}</p>
 
-<span className='font-semibold text-xl lg:text-base'> {t("vrachs")} <span className='text-[#20C997] font-semibold text-xl lg:text-base'>{t("dok3")}</span></span>
+
 </div>
 
 
@@ -66,6 +66,42 @@ const Otziv = () => {
           </div>
 
           </div>
+            <div  className="w-full mt-16 nb:mt-10">
+      <div ref={titleRef} className="px-20 xl:px-12 lg:px-8 md:px-5 flex flex-col items-center gap-8">
+      
+<div className='flex justify-between gap-x-10 sm:flex-col sm:gap-12'>
+<div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
+    <div className='flex flex-col'>
+          <span className='font-semibold text-base'>Odilova Nozima  </span>
+          <span className='font-normal text-base'>18 апрел 2023</span>
+    </div>
+  
+   <img src={stars} alt="" />
+   <p className='otzivi font-semibold text-lg lg:text-base nb:text-sm '>{t("otziv3")}</p>
+
+
+</div>
+
+<div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
+    <div className='flex flex-col '>
+          <span className='font-semibold text-base'>Tursunova Shohida</span>
+          <span className='font-normal text-base'>19 март 2024</span>
+    </div>
+  
+   <img src={stars} alt="" />
+   <p className='otzivi font-semibold text-lg lg:text-base nb:text-sm'>{t("otziv4")}</p>
+
+
+</div>
+
+
+
+</div>
+
+          </div>
+
+          </div>
+          </>
   )
 }
 

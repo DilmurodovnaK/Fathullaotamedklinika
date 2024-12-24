@@ -41,7 +41,7 @@ const Footer = () => {
         {/* Left Section */}
         <div className="flex justify-between w-[50%] gap-x-10 md:w-full sm:flex-col sm:items-center">
           <div className="flex flex-col items-start gap-5 sm:items-center">
-            <p className="text-3xl font-bold lg:text-xl sm:text-center">{t("sarlavha")}</p>
+            <p className="text-3xl font-bold lg:text-xl sm:text-center">{t("sarlavha")} {t("sarlavha6")}</p>
             <p className="max-w-[350px] lg:text-sm text-center">
              {t("foot1")}
             </p>

@@ -69,7 +69,7 @@ const services = [
   },
   {
     src: usluga10,
-    description: 'ТУБУС-КВАРЦ',
+    description: 'ТУБУС',
   },
   {
     src: usluga11,
@@ -85,11 +85,11 @@ const services = [
   },
    {
     src: usluga14,
-    description: 'ПАРАФИН, ИНГАЛЯЦИЯ',
+    description: 'ПАРАФИН',
   },
   {
     src: usluga15,
-    description: 'ИГЛОРЕФЛЕКСОТЕРАПИЯ',
+    description: 'ИНГАЛЯЦИЯ',
   },
   {
     src: usluga16,
@@ -193,7 +193,7 @@ const services = [
             className='swip overflow-hidden justify-center '
             spaceBetween={30}
             slidesPerView={4}
-            autoplay={{ delay: 3000 }}
+            autoplay={{ delay: 5000 }}
             pagination={{ clickable: true }}
             modules={[Navigation, Pagination, Autoplay]}
             onSwiper={(swiper) => (swiperRef.current = swiper)}

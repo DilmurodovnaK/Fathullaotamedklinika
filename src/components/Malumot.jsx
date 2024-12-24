@@ -48,17 +48,17 @@ const { t } = useTranslation();
         <div className='grid grid-cols-4  sm:grid-cols-2 sm:gap-7 justify-between gap-x-5'>
           <div className='flex flex-col items-start max-w-[260px] gap-2'>
             <img src={plus} alt="" />
-            <span className='text-[#20C997] md:text-xl text-2xl font-medium'>10+</span>
+            <span className='text-[#20C997] md:text-xl text-2xl font-medium'>3+</span>
             <span className='font-normal text-black md:text-base lg:text-sm  text-lg max-w-[222px]'>{t("malumot1")}</span>
           </div>
            <div className='flex flex-col items-start max-w-[260px] gap-2'>
             <img src={plus} alt="" />
-            <span className='text-[#20C997] md:text-xl text-2xl font-medium'>15+</span>
+            <span className='text-[#20C997] md:text-xl text-2xl font-medium'>5+</span>
             <span className='font-normal text-black md:text-base lg:text-sm  text-lg max-w-[222px]'> {t("malumot2")}</span>
           </div>
            <div className='flex flex-col items-start max-w-[260px] gap-2'>
             <img src={plus} alt="" />
-            <span className='text-[#20C997] md:text-xl text-2xl font-medium'>19</span>
+            <span className='text-[#20C997] md:text-xl text-2xl font-medium'>20+</span>
             <span className='font-normal text-black md:text-base lg:text-sm  text-lg max-w-[222px]'>{t("malumot3")}</span>
           </div>
            <div className='flex flex-col items-start max-w-[260px] gap-2'>

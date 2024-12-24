@@ -1,12 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./icons";
-import logo from "../image/logo.png";
+import logo from "../image/logotip.png";
 import ScrollReveal from "scrollreveal";
 import { useTranslation } from "react-i18next";
 
 const Navbar = () => {
   const titleRef = useRef(null);
-  const titlRef = useRef(null);
+  const titlRef = useRef(null); 
   
   const { t, i18n } = useTranslation();
 
@@ -58,7 +58,7 @@ const Navbar = () => {
       <div ref={titlRef} className="nav-container flex items-center justify-between">
         {/* Logo */}
         <a className="nav-logo">
-          <img src={logo} alt="Logo" width={150} height={100} onClick={() => scrollToSection("navbar")} />
+          <img src={logo} alt="Logo" width={110} height={100} onClick={() => scrollToSection("navbar")} />
         </a>
 
         {/* Menu */}
