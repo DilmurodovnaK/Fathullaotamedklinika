@@ -69,7 +69,7 @@ const services = [
   },
   {
     src: usluga10,
-    description: 'Керамика Терапия',
+    description: 'КЕРАМИКА ТЕРАПИЯ',
   },
   {
     src: usluga11,

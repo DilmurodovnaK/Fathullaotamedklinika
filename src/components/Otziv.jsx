@@ -38,7 +38,7 @@ const Otziv = () => {
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
     <div className='flex flex-col'>
           <span className='font-semibold text-base'>Shukurillayeva Munisa  </span>
-          <span className='font-normal text-base'>18 апрел 2023</span>
+          <span className='font-normal text-base'>18 июнь 2022</span>
     </div>
   
    <img src={stars} alt="" />
@@ -50,7 +50,7 @@ const Otziv = () => {
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
     <div className='flex flex-col '>
           <span className='font-semibold text-base'>Abdullayeva Samira</span>
-          <span className='font-normal text-base'>19 март 2024</span>
+          <span className='font-normal text-base'>5 март 2023</span>
     </div>
   
    <img src={stars} alt="" />
@@ -73,7 +73,7 @@ const Otziv = () => {
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
     <div className='flex flex-col'>
           <span className='font-semibold text-base'>Odilova Nozima  </span>
-          <span className='font-normal text-base'>18 апрел 2023</span>
+          <span className='font-normal text-base'>29 сентябрь 2024</span>
     </div>
   
    <img src={stars} alt="" />
@@ -85,7 +85,7 @@ const Otziv = () => {
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
     <div className='flex flex-col '>
           <span className='font-semibold text-base'>Tursunova Shohida</span>
-          <span className='font-normal text-base'>19 март 2024</span>
+          <span className='font-normal text-base'>11 декабрь 2024</span>
     </div>
   
    <img src={stars} alt="" />
