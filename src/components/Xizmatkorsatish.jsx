@@ -69,7 +69,7 @@ const services = [
   },
   {
     src: usluga10,
-    description: 'ТУБУС',
+    description: 'Керамика Терапия',
   },
   {
     src: usluga11,
@@ -222,15 +222,15 @@ const services = [
           >
             {services.map((usluga, index) => (
               <SwiperSlide className='swip  ' key={index}>
-                <div className="max-w-[300px] sm:w-[450px] bg-[#F5F5F5] border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow">
+                <div className="min-w-[290px] sm:w-[430px] bg-[#F5F5F5] border border-gray-200 rounded-lg shadow hover:shadow-lg transition-shadow">
                   <img
                     src={usluga.src}
                     alt={usluga.description}
                     width={350}
                     height={250}
-                    className="rounded-t-lg object-cover h-[250px] "
+                    className="rounded-t-lg object-cover h-[250px] w-[400px] "
                   />
-                  <div className="p-5">
+                  <div className="p-5 ">
                     <p className="mb-3 font-medium text-[17px] text-black max-w-[240px] ">
                       {usluga.description}
                     </p>
