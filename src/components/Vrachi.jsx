@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import vrach1 from "../image/photo_2024-10-13_01-14-13.jpg";
 import vrach2 from "../image/vrach11.jpg";
 import vrach3 from "../image/photo_2024-10-13_01-13-26.jpg";
-import vrach4 from "../image/vrach44.jpg";
+import vrach4 from "../image/vrach1.jpg";
 import { motion } from "framer-motion";
 import ScrollReveal from "scrollreveal";
 import { useTranslation } from "react-i18next";
@@ -14,6 +14,7 @@ const { t } = useTranslation();
       id: 1,
       name: t("dok1"),
       image: vrach1,
+      text:t("dok1text"),
       description: t("info1"),
         
     },
@@ -21,21 +22,29 @@ const { t } = useTranslation();
       id: 2,
       name: t("dok3"),
       image: vrach3,
+       text:t("dok2text"),
       description:t("info1"),
     },
     {
       id: 3,
       name: t("dok2"),
-      image: vrach2,
+      image: vrach2, 
+      text:t("dok3text"),
       description:t("info2")
     },
-  
-    {
+   {
       id: 4,
-      name: t("dok4"),
-      image: vrach4,
-      description: t("info3")
+      name: t("dok5"),
+      image: vrach4, 
+      text:t("dok4text"),
+      description: t("info5")
     },
+    // {
+    //   id: 4,
+    //   name: t("dok4"),
+    //   image: vrach4,
+    //   description: t("info3")
+    // },
   ];
 
   const openModal = (doctor) => {
@@ -87,7 +96,7 @@ const { t } = useTranslation();
                 className="w-full h-[350px] rounded-t-lg object-cover"
               />
               <div className="p-5 items-center text-center bg-[#F5F5F5]">
-                <h4 className="font-semibold text-[#6A0572] text-lg mb-1 text-center">
+                <h4 className="font-semibold text-[#6A0572] px-2 text-lg mb-1 text-center">
                   {doctor.name}
                 </h4>
                 <motion.button
@@ -113,6 +122,7 @@ const { t } = useTranslation();
       onClick={(e) => e.stopPropagation()} // Prevent modal close on content click
     >
       <h2 className="modal-title">{selectedDoctor.name}</h2>
+      <p className="modal-text">{selectedDoctor.text}</p>
       {/* Description as a list if it's an array */}
       {Array.isArray(selectedDoctor.description) ? (
         <ul>

@@ -21,6 +21,8 @@ import usluga13 from "../image/usluga13.jpg"
 import usluga14 from "../image/usluga14.jpg"
 import usluga15 from "../image/usluga15.jpg"
 import usluga16 from "../image/usluga16.jpg"
+import usluga17 from "../image/usluga17.jpg"
+import usluga18 from "../image/usluga18.jpg"
 import { motion } from "framer-motion";
 import ScrollReveal from 'scrollreveal';
 import { useTranslation } from 'react-i18next';
@@ -48,7 +50,7 @@ const services = [
   },
 
   {
-    src: usluga5,
+    src: usluga10,
     description: 'ИК-РЕЗОНАНС ТЕРАПИЯ',
   },
   {
@@ -58,22 +60,27 @@ const services = [
   {
     src: usluga7,
     description: 'ГИРУДОТЕРАПИЯ',
+  }, 
+  {
+    src: usluga18,
+    description: 'КЕДРОВАЯ БОЧКА',
   },
   {
     src: usluga8,
     description: 'СОЛЕНАЯ ПЕШЕРА',
   },
    {
+    src: usluga11,
+    description: 'ЭЛЕКТРОТЕРАПИЯ',
+  },
+   {
     src: usluga9,
     description: 'ОЗОНОТЕРАПИЯ',
   },
+ 
   {
-    src: usluga10,
-    description: 'КЕРАМИКА ТЕРАПИЯ',
-  },
-  {
-    src: usluga11,
-    description: 'ЭЛЕКТРОТЕРАПИЯ',
+    src: usluga17,
+    description: 'БЭМ ТЕРАПИЯ',
   },
   {
     src: usluga12,
@@ -93,9 +100,10 @@ const services = [
   },
   {
     src: usluga16,
-    description: 'АНТИГЕЛЬМИНТАЛЬНАЯ ТЕРАПИЯ',
+    description: 'АНТИГЕЛЬМИНТНАЯ ТЕРАПИЯ',
   },
- 
+  
+  
 ];
 
     const titleRef = useRef(null);

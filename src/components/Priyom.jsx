@@ -112,8 +112,8 @@ const Priyom = () => {
   }
 
   const TELEGRAM_TOKEN = "7931505142:AAFxjz1hFQKrmv_OeMhbUn32EYfUMmsFEt4";
-  const CHAT_ID = "1334411608"; // Your chat ID
-
+  const CHAT_ID = "6652065"; // Shaxnozaopaniki
+// "1334411608" bu Komolani idsi;
   // Prepare the message with proper formatting
   const message = `Имя: ${formData.name}\nТелефон: ${formData.tel}\nФамилия: ${formData.secondname}\nВыбрано: ${personName.length ? personName.join(", ") : "No tags selected"}`;
 
