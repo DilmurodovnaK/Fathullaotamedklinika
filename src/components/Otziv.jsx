@@ -144,7 +144,7 @@ const Otziv = () => {
 <div className='flex justify-between gap-x-10 sm:flex-col sm:gap-12'>
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
     <div className='flex flex-col'>
-          <span className='font-semibold text-base'>Акромжонова Лазиза </span>
+          <span className='font-semibold text-base'>Иванов Сергей</span>
           <span className='font-normal text-base'>03 ноябрь 2024</span>
     </div>
   
@@ -156,7 +156,7 @@ const Otziv = () => {
 
 <div className='w-[50%] flex flex-col items-start gap-5 sm:w-[100%] sm:gap-3'>
     <div className='flex flex-col '>
-          <span className='font-semibold text-base'>Иванов Сергей</span>
+          <span className='font-semibold text-base'>Акромжонова Лазиза </span>
           <span className='font-normal text-base'>20 декабрь 2024</span>
     </div>
   

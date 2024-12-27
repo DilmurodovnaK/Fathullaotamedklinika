@@ -44,7 +44,7 @@ const { t } = useTranslation();
     </div>
 
     <div className="w-full  ">
-      <div ref={titleRef} className="p-14  mx-20 xl:mx-10 xl:px-5 nb:mx-5 lg:mx-8 bg-[#F0F6F9] md:py-14 rounded-[5px]">
+      <div ref={titleRef} className="p-14  mx-20 xl:mx-10 xl:px-5 nb:mx-5 lg:mx-8 malumot md:py-14 rounded-[5px]">
         <div className='grid grid-cols-4  sm:grid-cols-2 sm:gap-7 justify-between gap-x-5'>
           <div className='flex flex-col items-start max-w-[260px] gap-2'>
             <img src={plus} alt="" />
