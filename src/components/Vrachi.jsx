@@ -3,6 +3,7 @@ import vrach1 from "../image/photo_2024-10-13_01-14-13.jpg";
 import vrach2 from "../image/vrach11.jpg";
 import vrach3 from "../image/photo_2024-10-13_01-13-26.jpg";
 import vrach4 from "../image/vrach1.jpg";
+import vrach5 from "../image/vrach5.jpg"
 import { motion } from "framer-motion";
 import ScrollReveal from "scrollreveal";
 import { useTranslation } from "react-i18next";
@@ -84,27 +85,56 @@ const { t } = useTranslation();
   `
 ],
     },
+   
     {
       id: 3,
-      name: t("dok2"),
-      image: vrach2, 
-      text:t("dok3text"),
-      description:t("info2")
+      name: t("dok4"),
+      image: vrach5,
+       text:t("dok5text"),
+      description: [`Профессиональные навыки :`, `Оказание помощи при заболевании сосудов сердца и головного мозга : `, `гипертонии, сахарный диабет ,последствия сотрясение мозга.`, `Заболевания  нервной  системы, бессоница ,синдром хронической усталости, головокружение  шум в ушах.`, 
+        `Заболевание ЖКТ гастрит  колит ,геморрой.`,
+        ` Генекологические и урологические заболевания :`,
+        ` хронический простатит , гиперплазия  представленной железы . Аменорея воспаление таковых органов ,воспаление , климактерический  синдром . `,
+        ` Ушибы ,вывихи переломы .ревматизм ног и др.`,
+        `Курс процедур Биоэнерго Регуляции рекомендован при недостаточной микроциркуляции крови в конечностей онемение и потеря чувствительности .`,
+        `Болях составные мышечные головные приступы мигрени обострении остеохондроз.`,
+` Затруднение дыхания : пневмонии и постковидный синдром ,сложные формы бронхит. Нарушение тонуса мышц после травм , инсультов .Проявление возрастных изменений.`
+      ]
     },
-   {
+     {
       id: 4,
       name: t("dok5"),
       image: vrach4, 
       text:t("dok4text"),
-      description: t("info5")
+      description: [`Выведение токсинов, очищение крови.`, `Улучшение кровообращения.`, `Увеличение клеточной активности укрепление иммунитета.`, 
+        `Ускорение метаболизма.`,
+        `Уменьшение отеков,устранение болей укрепления мышц и костей.`,
+        `Способствует очищению от токсинов.`,
+        `Восполняет нехватку энергии.`,
+        `Устраняет застой крови.`,
+        `Восстанавливает баланс Ин-Янь внутренних органов.`,
+        `Очищение меридианов, устранение застоя крови.`,
+        `Заменяет более 5 физиотерапий.`,
+        `Эффект ваакумной терапии.`,
+        `Эффект иглотерапии.`,
+        `Антицеллюлитный эффект.`,
+        `Одна процедура равнозначно 10 - сеансам традиционного массажа`,
+
+
+
+      ],
     },
-    // {
-    //   id: 4,
-    //   name: t("dok4"),
-    //   image: vrach4,
-    //   description: t("info3")
-    // },
+     {
+      id: 5,
+      name: t("dok2"),
+      image: vrach2, 
+      text:t("dok3text"),
+       description: [`Я лечу все виды заболеваний у людей на основе их биоэнергетики. `,
+        `Я лечу многие женские миомы, кистозные заболевания, цирроз печени, виды гепатита, гормональные нарушения, диабет, психические состояния людей и многие другие заболевания.`
+      ]
+    },
   ];
+  
 
   const openModal = (doctor) => {
     setSelectedDoctor(doctor);
@@ -136,14 +166,14 @@ const { t } = useTranslation();
 
   return (
     <div id="vrachi" className="w-full mt-24 flex flex-col items-center">
-      <div ref={titlRef} className="px-20 xl:px-12 lg:px-8 md:px-5 flex flex-col items-center gap-8">
+      <div ref={titlRef} className="px-10 xl:px-12 lg:px-8 md:px-5 flex flex-col items-center gap-8">
         <div className="w-full">
           <h3 className="font-nunito mb-5 text-start font-bold text-[44px] xl:text-[38px] md:text-[34px] leading-tight text-black">
             <span className="text-[#6A0572]">{t("vrach")}</span> {t("vrach2")}
           </h3>
         </div>
 
-        <div className="w-full grid grid-cols-4 lg:grid-cols-2 sm:grid-cols-1 gap-x-8 gap-y-10">
+        <div className="w-full grid grid-cols-5 lg:grid-cols-2 justify-center sm:grid-cols-1 gap-x-8 gap-y-10">
           {doctors.map((doctor) => (
             <div
               key={doctor.id}
@@ -163,7 +193,7 @@ const { t } = useTranslation();
   whileTap={{ scale: 0.95 }}
   onHoverStart={() => console.log('hover started!')}
                   onClick={() => openModal(doctor)}
-                  className="font-nunito font-normal mt-3 btn2 text-lg px-3 py-3 bg-[#20C997] text-white rounded-md lg:rounded-[5px] hover:bg-[#6A0572] transition-all duration-1000 ease-out lg:px-8"
+                  className="font-nunito text-base font-normal mt-3 btn2 px-3 py-3 bg-[#20C997] text-white rounded-md lg:rounded-[5px] hover:bg-[#6A0572] transition-all duration-1000 ease-out lg:px-8"
                 >
                 {t("button2")}
                 </motion.button>

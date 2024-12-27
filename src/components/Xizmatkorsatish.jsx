@@ -20,7 +20,7 @@ import usluga12 from "../image/usluga12.jpg"
 import usluga13 from "../image/usluga13.jpg"
 import usluga14 from "../image/usluga14.jpg"
 import usluga15 from "../image/usluga15.jpg"
-import usluga16 from "../image/usluga16.jpg"
+import usluga166 from "../image/usluga166.jpg"
 import usluga17 from "../image/usluga17.jpg"
 import usluga18 from "../image/usluga18.jpg"
 import { motion } from "framer-motion";
@@ -99,7 +99,7 @@ const services = [
     description: 'ИНГАЛЯЦИЯ',
   },
   {
-    src: usluga16,
+    src: usluga166,
     description: 'АНТИГЕЛЬМИНТНАЯ ТЕРАПИЯ',
   },
   
@@ -239,7 +239,7 @@ const services = [
                     className="rounded-t-lg object-cover h-[250px] w-[400px] "
                   />
                   <div className="p-5 ">
-                    <p className="mb-3 font-medium text-[17px] text-black max-w-[240px] ">
+                    <p className="mb-3 font-medium text-[15px] text-black max-w-[240px] ">
                       {usluga.description}
                     </p>
                    <motion.button whileHover={{ scale: 1.1 }}
