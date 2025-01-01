@@ -66,9 +66,9 @@ const resources = {
             info5: "Выведение токсинов, очищение крови. Улучшение кровообращения.  Увеличение клеточной активности укрепление иммунитета. Ускорение метаболизма.  Уменьшение отеков,   устранение болей укрепления мышц и костей. Способствует очищению от токсинов. Заменяет более 5 физиотерапий. Эффект ваакумной терапии.  Эффект иглотерапии. Антицеллюлитный эффект.  Одна процедура равнозначно 10 - сеансам традиционного массажа Устраняет застой крови.Восстанавливает баланс Ин - Янь внутренних органов.Очищение меридианов,  устранение застоя крови. Био энергетический массаж очень прост и удобен в использовании подходит практически для всех категорий людей.Обладет ярким и очевидным эффектом при болях в суставах и болезнях костной системы, при восстановлении после спортивных травм, гинекологических и урологических заболеваниях, дает быстрый результат при плечевой периартрите, повреждения позвоночника, параличе лицевого нерва, псориазе и множество других заболеваний.",
             dok1text: "Директор, Врач травматолог - ортопед. КМН Врач высшей категории, физиотерапевт, диагност. Стаж работы выше 26-лет",
             dok2text: "Глав врач, Врач Травматолог - ортопед, врач высшей категории, Физиотерапевт диагност, Стаж работы выше 30-лет",
-            dok3text: "Нутрициолог, Стаж работы выше 15-лет",
+            dok3text: "Валеолог, специалист альтернативной медицины, Стаж работы выше 15-лет",
             dok4text: "Кинезио практик с восточным методом массажа, Стаж работы выше 20 - лет ",
-            dok5text: "Психотерапефт, Стаж работы выше 35 - лет",
+            dok5text: "Психолог-кинезиолог, Фоллист, диагност. Стаж работы выше 35 - лет",
         },
     },
     uz: {
@@ -135,9 +135,9 @@ const resources = {
             info5: "Toksinlarni olib tashlash, qonni tozalash. Yaxshilangan qon aylanishi. Hujayra faolligining oshishi immunitet tizimini mustahkamlaydi. Metabolizmning tezlashishi. Shishishni kamaytirish, og'riqni yo'qotish va mushaklar va suyaklarni mustahkamlash. Toksinlarni tozalashga yordam beradi. 5 dan ortiq jismoniy terapiya o'rnini bosadi. Vakuum terapiyasining ta'siri. Akupunkturning ta'siri. Selülitga qarshi ta'sir. Bir protsedura an'anaviy massajning 10 seansiga teng bo'ladi, ichki organlarning Ying-Yang muvozanatini tiklaydi, qonning turg'unligini yo'q qiladi. Bio-energiya massaji juda oddiy va ishlatish uchun qulay bo'lib, deyarli barcha toifadagi odamlar uchun mos keladi, u bo'g'imlardagi og'riqlar va suyak tizimining kasalliklari, sport jarohatlari, ginekologik va urologik kasalliklardan tiklanish uchun yorqin va aniq ta'sir ko'rsatadi. elka periartriti, orqa miya shikastlanishi, yuz falaji, toshbaqa kasalligi va boshqa ko'plab kasalliklar uchun tezkor natijalar beradi.",
             dok1text: "Direktor, Vrach Travmatolog - Ortoped. TFN Oliy toifali shifokor, Fizioterapevt, Diagnost, Ish staji 26 yildan ziyod",
             dok2text: "Bosh shifokor, Vrach Travmatolog - Ortoped, Oliy toifali shifokor, Fizioterapevt Diagnostika, Ish staji 30 yildan ziyod",
-            dok3text: "Nutritsiolog, Ish staji 15 yildan ziyod",
+            dok3text: "Valeolog, muqobil tibbiyot bo'yicha mutaxassis, Ish staji 15 yildan ziyod",
             dok4text: "Sharq massaj usuli bilan kinesio amaliyotchisi, Ish staji 20 yildan ziyod",
-            dok5text: "Psixoterapeft, Ish staji 35 yildan ziyod",
+            dok5text: "Psixolog-kinesiolog, Follist, diagnostik. Ish staji 35 yildan ziyod",
         },
     },
 };
