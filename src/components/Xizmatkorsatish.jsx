@@ -198,10 +198,10 @@ const services = [
 
         <div className="relative w-full items-center justify-between">
           <Swiper
-            className='swip overflow-hidden justify-center '
+            className='swip overflow-hidden  '
             spaceBetween={30}
             slidesPerView={4}
-            autoplay={{ delay: 5000 }}
+            autoplay={{ delay: 4000 }}
             pagination={{ clickable: true }}
             modules={[Navigation, Pagination, Autoplay]}
             onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -222,7 +222,7 @@ const services = [
                 slidesPerView: 3,
                 spaceBetween: 30,
               },
-              1200: {
+              1180: {
                 slidesPerView: 4,
                 spaceBetween: 30,
               },
